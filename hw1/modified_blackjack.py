@@ -11,6 +11,18 @@ def cmp(a, b):
 
 # 1 = Ace, 2-10 = Number cards, Jack/Queen/King = 10
 deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+plus_minus_compliance = {
+    1: -1,
+    2: 1,
+    3: 1,
+    4: 1,
+    5: 1,
+    6: 1,
+    7: 0,
+    8: 0,
+    9: 0,
+    10: -1,
+}
 
 
 def draw_card(np_random):
